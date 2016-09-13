@@ -44,6 +44,12 @@ module.exports = {
         loaders: [
           'html'
         ]
+      },
+      {
+        test: /.(svg|ttf|woff|eot|woff2|png|jpg|gif)$/,
+        loaders: [
+          'file'
+        ]
       }
     ]
   },

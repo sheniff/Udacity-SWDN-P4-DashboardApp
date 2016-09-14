@@ -21,6 +21,7 @@ import {Sidebar} from './app/components/Sidebar';
 import {TopNav} from './app/components/TopNav';
 import {Geo} from './app/components/Geo';
 import {Metrics} from './app/components/Metrics';
+import {Data} from './app/components/Data';
 import {TopTiles} from './app/components/TopTiles';
 import {PayingCustomersChart} from './app/components/PayingCustomersChart';
 import {ReportedIssuesChart} from './app/components/ReportedIssuesChart';
@@ -42,6 +43,7 @@ angular
   .component('topnavComponent', TopNav)
   .component('geo', Geo)
   .component('metrics', Metrics)
+  .component('data', Data)
   .component('topTilesComponent', TopTiles)
   .component('payingCustomersChartComponent', PayingCustomersChart)
   .component('reportedIssuesChartComponent', ReportedIssuesChart);

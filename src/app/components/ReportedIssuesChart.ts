@@ -40,7 +40,10 @@ class ReportedIssuesChartController {
     Highcharts.chart(
       this.$element.find('div')[2],
       Object.assign(
-        { series: [{ data: pairs }] },
+        { series: [{
+          name: 'Reported issues',
+          data: pairs
+        }] },
         this.chartConfig
       )
     );

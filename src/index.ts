@@ -1,6 +1,7 @@
 /// <reference path="../typings/index.d.ts" />
 
 import * as angular from 'angular';
+import 'angular-ui-router';
 import 'gentelella/vendors/bootstrap/dist/css/bootstrap.min.css';
 import 'gentelella/vendors/font-awesome/css/font-awesome.min.css';
 import 'gentelella/production/css/maps/jquery-jvectormap-2.0.3.css';

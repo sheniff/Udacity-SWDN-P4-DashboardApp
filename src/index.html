@@ -12,7 +12,7 @@
     <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
   </head>
 
-  <body ng-app="app" class="nav-md">
+  <body ng-app="app" class="nav-md" ng-class="{ 'nav-sm': $root.sidebarVisible, 'nav-md': !$root.sidebarVisible }">
     <div class="container body">
       <ui-view></ui-view>
     </div>

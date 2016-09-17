@@ -1,4 +1,4 @@
-import * as Highcharts from 'highcharts';
+declare var window: any;
 import { ITimeData, generateRandomTimeline } from '../services/payloads';
 
 class PayingCustomersChartController {
@@ -37,7 +37,7 @@ class PayingCustomersChartController {
   }
 
   private printChart(pairs: Array<Array<number>>) {
-    Highcharts.chart(
+    window.Highcharts.chart(
       this.$element.find('div')[2],
       Object.assign(
         { series: [{

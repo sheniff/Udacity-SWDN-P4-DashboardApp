@@ -8,10 +8,6 @@ function routesConfig($stateProvider: angular.ui.IStateProvider, $urlRouterProvi
   $urlRouterProvider.otherwise('/geo');
 
   $stateProvider
-    .state('app', {
-      url: '/todo',
-      component: 'app'
-    })
     .state('dashboard', {
       url: '/',
       component: 'dashboard'

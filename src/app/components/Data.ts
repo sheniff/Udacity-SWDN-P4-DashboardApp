@@ -11,8 +11,8 @@ class DataController {
   }
 
   parseData(raw: string): Array<{}> {
-    return raw.split('\n').map(function(row){
-      return row.split(',').reduce(function(res, cell, index){
+    return raw.split('\n').map(function(row: string){
+      return row.split(',').reduce(function(res: {}, cell: string, index: number){
         res[FIELDS[index]] = cell;
         return res;
       }, {});

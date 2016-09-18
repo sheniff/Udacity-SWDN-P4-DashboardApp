@@ -1,5 +1,4 @@
 declare var window: any;
-import { ITimeData, generateRandomTimeline } from '../services/payloads';
 
 class ReportedIssuesChartController {
   private chartConfig = {
@@ -24,21 +23,22 @@ class ReportedIssuesChartController {
 
   /** ngInject */
   constructor(
-    public $element: angular.IRootElementService
+    public $element: angular.IRootElementService,
+    public dataService
   ) {}
 
   $onInit() {
-    // get data...
-    let data = generateRandomTimeline(7).map(function(i: ITimeData){
-      return [i.date, i.value];
-    });
-    // ... and print chart
-    this.printChart(data);
+    this.getData();
+  }
+
+  getData() {
+    this.dataService.getReportedIssues()
+      .then(data => this.printChart(data));
   }
 
   private printChart(pairs: Array<Array<number>>) {
     window.Highcharts.chart(
-      this.$element.find('div')[2],
+      document.querySelector('#reportedIssuesChart'),
       Object.assign(
         { series: [{
           name: 'Reported issues',

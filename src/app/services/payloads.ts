@@ -23,26 +23,9 @@ export function generateRandomTimeline(days: number): Array<ITimeData> {
     });
   }
 
+  console.log(JSON.stringify(data));
   return data;
 };
-
-// function randomDate(start, end) {
-//     return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-// }
-//
-// function generateRandomDates(numDates) {
-//   var dates = [];
-//   for (var i = 0; i < 15; i++) {
-//     dates.push(
-//       randomDate(i === 0 ?
-//           new Date(2010, 0, 1) :
-//           new Date(dates[i-1]),
-//         new Date()
-//       )
-//     );
-//   }
-//   return dates;
-// }
 
 export const csvRawData = '1397118824518,Nike,issues@nike.com,Cannot access my data,open,,Mark\n\
 1399607428366,Adidas,issues@adidas.com,Something weird happens,closed,1399866628366,John\n\

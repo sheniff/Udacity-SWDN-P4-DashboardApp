@@ -1,5 +1,6 @@
 class CountdownBarController {
   private COUNTDOWN_MAX = 15;
+  private timer: angular.IPromise<any>;
   public current: number;
   public currentPerc: number;
   public onTick;
@@ -7,6 +8,11 @@ class CountdownBarController {
   constructor(public $timeout: angular.ITimeoutService) {
     this.current = 0;
     this.countdown();
+  }
+
+  $onDestroy() {
+    console.log('destroying timer...');
+    this.$timeout.cancel(this.timer);
   }
 
   countdown() {
@@ -18,7 +24,7 @@ class CountdownBarController {
     }
 
     this.currentPerc = this.current / this.COUNTDOWN_MAX * 100;
-    this.$timeout(() => this.countdown(), 1000);
+    this.timer = this.$timeout(() => this.countdown(), 1000);
   }
 }
 

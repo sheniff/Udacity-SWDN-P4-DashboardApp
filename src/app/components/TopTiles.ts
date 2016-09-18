@@ -1,16 +1,19 @@
-import { issuesOverview } from '../services/payloads';
-
 class TopTilesController {
   public issues: {};
 
   /** ngInject */
-  // TODO: use http and show loader meanwhile :)
   constructor(
-    public $http: angular.IHttpService
+    public $http: angular.IHttpService,
+    public dataService
   ) {}
 
   $onInit() {
-    this.issues = issuesOverview;
+    this.getData();
+  }
+
+  getData() {
+    this.dataService.getOverview()
+      .then(issues => this.issues = issues);
   }
 }
 

@@ -1,5 +1,4 @@
 declare var window: any;
-import { mapData } from '../services/payloads';
 
 class GeoController {
   private chartConfig = {
@@ -13,7 +12,7 @@ class GeoController {
     },
     colorAxis: { min: 0 },
     series: [{
-      data: mapData,
+      data: null,
       mapData: null,
       joinBy: 'hc-key',
       name: 'Offices per country',
@@ -25,12 +24,22 @@ class GeoController {
     }]
   };
 
+  /** ngInject */
+  constructor(public dataService) {}
+
   $onInit() {
-    this.printChart();
+    this.getData();
   }
 
-  private printChart() {
+  getData() {
+    this.dataService.getMapData()
+      .then(data => this.printChart(data));
+  }
+
+  private printChart(data: Array<any>) {
     this.chartConfig.series[0].mapData = window.Highcharts.maps['custom/world'];
+    this.chartConfig.series[0].data = data;
+
     window.Highcharts.Map(
       document.querySelector('#world-map-gdp'),
       this.chartConfig

@@ -1,0 +1,18 @@
+{
+  "total": {
+    "value": 320,
+    "diff": -5.2
+  },
+  "open": {
+    "value": 130,
+    "diff": 3.5
+  },
+  "closed": {
+    "value": 190,
+    "diff": 20
+  },
+  "owned": {
+    "value": 35,
+    "diff": 12.4
+  }
+}

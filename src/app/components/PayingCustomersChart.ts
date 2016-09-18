@@ -22,10 +22,7 @@ class PayingCustomersChartController {
   };
 
   /** ngInject */
-  constructor(
-    public $element: angular.IRootElementService,
-    public dataService
-  ) {}
+  constructor(public dataService) {}
 
   $onInit() {
     this.getData();

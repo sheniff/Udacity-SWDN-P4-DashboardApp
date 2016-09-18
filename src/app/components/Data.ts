@@ -1,13 +1,15 @@
-import { csvRawData } from '../services/payloads';
-
 const FIELDS = ['submissionDate', 'customerName', 'customerEmail',
 'description', 'openClosed', 'closedDate', 'employeeName'];
 
 class DataController {
   public data: Array<{}> = [];
 
+  /** ngInject */
+  constructor(public dataService: any) {}
+
   $onInit() {
-    this.data = this.parseData(csvRawData);
+    this.dataService.getDataCsv()
+      .then(raw => this.data = this.parseData(raw));
   }
 
   parseData(raw: string): Array<{}> {

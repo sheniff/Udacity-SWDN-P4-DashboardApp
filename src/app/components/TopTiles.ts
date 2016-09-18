@@ -2,10 +2,7 @@ class TopTilesController {
   public issues: {};
 
   /** ngInject */
-  constructor(
-    public $http: angular.IHttpService,
-    public dataService
-  ) {}
+  constructor(public dataService: any) {}
 
   $onInit() {
     this.getData();

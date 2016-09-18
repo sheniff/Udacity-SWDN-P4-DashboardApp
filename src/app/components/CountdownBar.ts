@@ -1,9 +1,9 @@
 class CountdownBarController {
-  private COUNTDOWN_MAX = 15;
-  private timer: angular.IPromise<any>;
   public current: number;
   public currentPerc: number;
   public onTick;
+  private COUNTDOWN_MAX = 15;
+  private timer: angular.IPromise<any>;
 
   constructor(public $timeout: angular.ITimeoutService) {
     this.current = 0;
@@ -16,7 +16,7 @@ class CountdownBarController {
   }
 
   countdown() {
-    if(this.current >= this.COUNTDOWN_MAX) {
+    if (this.current >= this.COUNTDOWN_MAX) {
       this.onTick();
       this.current = 0;
     } else {

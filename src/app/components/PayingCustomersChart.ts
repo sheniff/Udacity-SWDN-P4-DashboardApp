@@ -22,7 +22,7 @@ class PayingCustomersChartController {
   };
 
   /** ngInject */
-  constructor(public dataService) {}
+  constructor(public dataService: any) {}
 
   $onInit() {
     this.getData();

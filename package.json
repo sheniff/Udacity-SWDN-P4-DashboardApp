@@ -72,7 +72,8 @@
     "serve:dist": "gulp serve:dist",
     "test": "gulp test",
     "test:auto": "gulp test:auto",
-    "gh": "gulp gh"
+    "gh": "gulp gh",
+    "postinstall": "typings i"
   },
   "eslintConfig": {
     "globals": {

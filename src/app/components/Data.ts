@@ -8,6 +8,10 @@ class DataController {
   constructor(public dataService: any) {}
 
   $onInit() {
+    this.getData();
+  }
+
+  getData() {
     this.dataService.getDataCsv()
       .then(raw => this.data = this.parseData(raw));
   }

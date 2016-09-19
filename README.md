@@ -8,7 +8,7 @@
 
 If you're using Mac OSX or Linux, you can do `open http://localhost:3000` to directly open a browser with the local app or just [go and open it manually by clicking here](http://localhost:3000).
 
-### [Live demo](https://sheniff.github.io/Udacity-SWDN-P3-RestaurantReviewerApp/)
+### [Live demo](https://sheniff.github.io/Udacity-SWDN-P4-DashboardApp/)
 
 ### Features
 * [x] Completion: App includes all requirements, including header, menu, and all dashboard views.

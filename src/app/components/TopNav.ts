@@ -2,6 +2,7 @@ class TopNavController implements angular.IComponentController {
   public sectionName: string;
   private sectionMap: {};
 
+  /** ngInject */
   constructor(public $location: angular.ILocationService) {
     this.sectionMap = {
       '/geo': 'Geo distribution',

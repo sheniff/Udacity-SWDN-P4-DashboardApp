@@ -18,6 +18,7 @@ gulp.task('serve:dist', gulp.series('default', 'browsersync:dist'));
 gulp.task('default', gulp.series('clean', 'build'));
 gulp.task('watch', watch);
 gulp.task('deploy', gulp.series('build', 'ghPages'));
+gulp.task('gh', gulp.series('ghPages'));
 
 function reloadBrowserSync(cb) {
   browserSync.reload();

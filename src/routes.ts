@@ -9,7 +9,7 @@ function routesConfig(
   $locationProvider: angular.ILocationProvider,
   $httpProvider: any
 ) {
-  $locationProvider.html5Mode(true).hashPrefix('!');
+  $locationProvider.html5Mode(false).hashPrefix('!');
   $urlRouterProvider.otherwise('/geo');
 
   $stateProvider

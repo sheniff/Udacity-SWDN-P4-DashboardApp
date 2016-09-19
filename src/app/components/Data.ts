@@ -4,7 +4,7 @@ const FIELDS = ['submissionDate', 'customerName', 'customerEmail',
 class DataController {
   public data: Array<{}> = [];
 
-  /** ngInject */
+  /** @ngInject */
   constructor(public dataService: any) {}
 
   $onInit() {

@@ -5,7 +5,7 @@ class CountdownBarController {
   private COUNTDOWN_MAX = 15;
   private timer: angular.IPromise<any>;
 
-  /** ngInject */
+  /** @ngInject */
   constructor(public $timeout: angular.ITimeoutService) {
     this.current = 0;
     this.countdown();

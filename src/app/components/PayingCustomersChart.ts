@@ -21,7 +21,7 @@ class PayingCustomersChartController {
     credits: { enabled: false }
   };
 
-  /** ngInject */
+  /** @ngInject */
   constructor(public dataService: any) {}
 
   $onInit() {

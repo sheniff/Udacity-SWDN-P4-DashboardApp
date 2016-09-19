@@ -1,7 +1,7 @@
 class TopTilesController {
   public issues: {};
 
-  /** ngInject */
+  /** @ngInject */
   constructor(public dataService: any) {}
 
   $onInit() {

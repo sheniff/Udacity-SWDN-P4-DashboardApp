@@ -1,7 +1,7 @@
 import { ITimeData } from '../services/payloads';
 
 export class DataService {
-  /** ngInject */
+  /** @ngInject */
   constructor(public $http: angular.IHttpService) {}
 
   getReportedIssues() {

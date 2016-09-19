@@ -24,7 +24,7 @@ class GeoController {
     }]
   };
 
-  /** ngInject */
+  /** @ngInject */
   constructor(public dataService: any) {}
 
   $onInit() {

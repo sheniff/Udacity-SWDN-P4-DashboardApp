@@ -1,5 +1,5 @@
 class DashboardController {
-  /** ngInject */
+  /** @ngInject */
   constructor(public $rootScope: any) {}
 
   toggleSidebar() {

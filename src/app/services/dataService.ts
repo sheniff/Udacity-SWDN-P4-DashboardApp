@@ -30,7 +30,7 @@ export class DataService {
 
   getMapData() {
     return this.$http
-      .get(`https://s3-us-west-1.amazonaws.com/swdn4/map.json`)
+      .get(`https://s3-us-west-1.amazonaws.com/swdn4/map${Math.floor(Math.random() * 4) + 1}.json`)
       .then(res => res.data);
   }
 }

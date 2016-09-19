@@ -37,12 +37,13 @@ class GeoController {
   }
 
   private printChart(data: Array<any>) {
-    this.chartConfig.series[0].mapData = window.Highcharts.maps['custom/world'];
-    this.chartConfig.series[0].data = data;
+    let config = Object.assign({}, this.chartConfig);
+    config.series[0].mapData = window.Highcharts.maps['custom/world'];
+    config.series[0].data = data;
 
     window.Highcharts.Map(
       document.querySelector('#world-map-gdp'),
-      this.chartConfig
+      config
     );
   }
 }

@@ -1,0 +1,640 @@
+[{
+  "hc-key": "fo",
+  "value": 0
+}, {
+  "hc-key": "um",
+  "value": 9
+}, {
+  "hc-key": "us",
+  "value": 1
+}, {
+  "hc-key": "jp",
+  "value": 3
+}, {
+  "hc-key": "sc",
+  "value": 4
+}, {
+  "hc-key": "in",
+  "value": 5
+}, {
+  "hc-key": "fr",
+  "value": 6
+}, {
+  "hc-key": "fm",
+  "value": 7
+}, {
+  "hc-key": "cn",
+  "value": 8
+}, {
+  "hc-key": "pt",
+  "value": 9
+}, {
+  "hc-key": "sw",
+  "value": 90
+}, {
+  "hc-key": "sh",
+  "value": 99
+}, {
+  "hc-key": "br",
+  "value": 91
+}, {
+  "hc-key": "ki",
+  "value": 93
+}, {
+  "hc-key": "ph",
+  "value": 94
+}, {
+  "hc-key": "mx",
+  "value": 95
+}, {
+  "hc-key": "es",
+  "value": 96
+}, {
+  "hc-key": "bu",
+  "value": 97
+}, {
+  "hc-key": "mv",
+  "value": 98
+}, {
+  "hc-key": "sp",
+  "value": 99
+}, {
+  "hc-key": "gb",
+  "value": 10
+}, {
+  "hc-key": "gr",
+  "value": 19
+}, {
+  "hc-key": "as",
+  "value": 11
+}, {
+  "hc-key": "dk",
+  "value": 13
+}, {
+  "hc-key": "gl",
+  "value": 14
+}, {
+  "hc-key": "gu",
+  "value": 15
+}, {
+  "hc-key": "mp",
+  "value": 16
+}, {
+  "hc-key": "pr",
+  "value": 17
+}, {
+  "hc-key": "vi",
+  "value": 18
+}, {
+  "hc-key": "ca",
+  "value": 19
+}, {
+  "hc-key": "st",
+  "value": 30
+}, {
+  "hc-key": "cv",
+  "value": 39
+}, {
+  "hc-key": "dm",
+  "value": 31
+}, {
+  "hc-key": "nl",
+  "value": 33
+}, {
+  "hc-key": "jm",
+  "value": 34
+}, {
+  "hc-key": "ws",
+  "value": 35
+}, {
+  "hc-key": "om",
+  "value": 36
+}, {
+  "hc-key": "vc",
+  "value": 37
+}, {
+  "hc-key": "tr",
+  "value": 38
+}, {
+  "hc-key": "bd",
+  "value": 39
+}, {
+  "hc-key": "lc",
+  "value": 40
+}, {
+  "hc-key": "nr",
+  "value": 49
+}, {
+  "hc-key": "no",
+  "value": 41
+}, {
+  "hc-key": "kn",
+  "value": 43
+}, {
+  "hc-key": "bh",
+  "value": 44
+}, {
+  "hc-key": "to",
+  "value": 45
+}, {
+  "hc-key": "fi",
+  "value": 46
+}, {
+  "hc-key": "id",
+  "value": 47
+}, {
+  "hc-key": "mu",
+  "value": 48
+}, {
+  "hc-key": "se",
+  "value": 49
+}, {
+  "hc-key": "tt",
+  "value": 50
+}, {
+  "hc-key": "my",
+  "value": 59
+}, {
+  "hc-key": "pa",
+  "value": 51
+}, {
+  "hc-key": "pw",
+  "value": 53
+}, {
+  "hc-key": "tv",
+  "value": 54
+}, {
+  "hc-key": "mh",
+  "value": 55
+}, {
+  "hc-key": "cl",
+  "value": 56
+}, {
+  "hc-key": "th",
+  "value": 57
+}, {
+  "hc-key": "gd",
+  "value": 58
+}, {
+  "hc-key": "ee",
+  "value": 59
+}, {
+  "hc-key": "ag",
+  "value": 60
+}, {
+  "hc-key": "tw",
+  "value": 69
+}, {
+  "hc-key": "bb",
+  "value": 61
+}, {
+  "hc-key": "it",
+  "value": 63
+}, {
+  "hc-key": "mt",
+  "value": 64
+}, {
+  "hc-key": "vu",
+  "value": 65
+}, {
+  "hc-key": "sg",
+  "value": 66
+}, {
+  "hc-key": "cy",
+  "value": 67
+}, {
+  "hc-key": "lk",
+  "value": 68
+}, {
+  "hc-key": "km",
+  "value": 69
+}, {
+  "hc-key": "fj",
+  "value": 70
+}, {
+  "hc-key": "ru",
+  "value": 79
+}, {
+  "hc-key": "va",
+  "value": 71
+}, {
+  "hc-key": "sm",
+  "value": 73
+}, {
+  "hc-key": "kz",
+  "value": 74
+}, {
+  "hc-key": "az",
+  "value": 75
+}, {
+  "hc-key": "tj",
+  "value": 76
+}, {
+  "hc-key": "ls",
+  "value": 77
+}, {
+  "hc-key": "uz",
+  "value": 78
+}, {
+  "hc-key": "ma",
+  "value": 79
+}, {
+  "hc-key": "co",
+  "value": 80
+}, {
+  "hc-key": "tl",
+  "value": 89
+}, {
+  "hc-key": "tz",
+  "value": 81
+}, {
+  "hc-key": "ar",
+  "value": 83
+}, {
+  "hc-key": "sa",
+  "value": 84
+}, {
+  "hc-key": "pk",
+  "value": 85
+}, {
+  "hc-key": "ye",
+  "value": 86
+}, {
+  "hc-key": "ae",
+  "value": 87
+}, {
+  "hc-key": "ke",
+  "value": 88
+}, {
+  "hc-key": "pe",
+  "value": 89
+}, {
+  "hc-key": "do",
+  "value": 90
+}, {
+  "hc-key": "ht",
+  "value": 99
+}, {
+  "hc-key": "pg",
+  "value": 91
+}, {
+  "hc-key": "ao",
+  "value": 93
+}, {
+  "hc-key": "kh",
+  "value": 94
+}, {
+  "hc-key": "vn",
+  "value": 95
+}, {
+  "hc-key": "mz",
+  "value": 96
+}, {
+  "hc-key": "cr",
+  "value": 97
+}, {
+  "hc-key": "bj",
+  "value": 98
+}, {
+  "hc-key": "ng",
+  "value": 99
+}, {
+  "hc-key": "ir",
+  "value": 900
+}, {
+  "hc-key": "sv",
+  "value": 909
+}, {
+  "hc-key": "sl",
+  "value": 901
+}, {
+  "hc-key": "gw",
+  "value": 903
+}, {
+  "hc-key": "hr",
+  "value": 904
+}, {
+  "hc-key": "bz",
+  "value": 905
+}, {
+  "hc-key": "za",
+  "value": 906
+}, {
+  "hc-key": "cf",
+  "value": 907
+}, {
+  "hc-key": "sd",
+  "value": 908
+}, {
+  "hc-key": "cd",
+  "value": 909
+}, {
+  "hc-key": "kw",
+  "value": 990
+}, {
+  "hc-key": "de",
+  "value": 999
+}, {
+  "hc-key": "be",
+  "value": 991
+}, {
+  "hc-key": "ie",
+  "value": 993
+}, {
+  "hc-key": "kp",
+  "value": 994
+}, {
+  "hc-key": "kr",
+  "value": 995
+}, {
+  "hc-key": "gy",
+  "value": 996
+}, {
+  "hc-key": "hn",
+  "value": 997
+}, {
+  "hc-key": "mm",
+  "value": 998
+}, {
+  "hc-key": "ga",
+  "value": 999
+}, {
+  "hc-key": "gq",
+  "value": 910
+}, {
+  "hc-key": "ni",
+  "value": 919
+}, {
+  "hc-key": "lv",
+  "value": 911
+}, {
+  "hc-key": "ug",
+  "value": 913
+}, {
+  "hc-key": "mw",
+  "value": 914
+}, {
+  "hc-key": "am",
+  "value": 915
+}, {
+  "hc-key": "sx",
+  "value": 916
+}, {
+  "hc-key": "tm",
+  "value": 917
+}, {
+  "hc-key": "zm",
+  "value": 918
+}, {
+  "hc-key": "nc",
+  "value": 919
+}, {
+  "hc-key": "mr",
+  "value": 930
+}, {
+  "hc-key": "dz",
+  "value": 939
+}, {
+  "hc-key": "lt",
+  "value": 931
+}, {
+  "hc-key": "et",
+  "value": 933
+}, {
+  "hc-key": "er",
+  "value": 934
+}, {
+  "hc-key": "gh",
+  "value": 935
+}, {
+  "hc-key": "si",
+  "value": 936
+}, {
+  "hc-key": "gt",
+  "value": 937
+}, {
+  "hc-key": "ba",
+  "value": 938
+}, {
+  "hc-key": "jo",
+  "value": 939
+}, {
+  "hc-key": "sy",
+  "value": 940
+}, {
+  "hc-key": "mc",
+  "value": 949
+}, {
+  "hc-key": "al",
+  "value": 941
+}, {
+  "hc-key": "uy",
+  "value": 943
+}, {
+  "hc-key": "cnm",
+  "value": 944
+}, {
+  "hc-key": "mn",
+  "value": 945
+}, {
+  "hc-key": "rw",
+  "value": 946
+}, {
+  "hc-key": "so",
+  "value": 947
+}, {
+  "hc-key": "bo",
+  "value": 948
+}, {
+  "hc-key": "cm",
+  "value": 949
+}, {
+  "hc-key": "cg",
+  "value": 950
+}, {
+  "hc-key": "eh",
+  "value": 959
+}, {
+  "hc-key": "rs",
+  "value": 951
+}, {
+  "hc-key": "me",
+  "value": 953
+}, {
+  "hc-key": "tg",
+  "value": 954
+}, {
+  "hc-key": "la",
+  "value": 955
+}, {
+  "hc-key": "af",
+  "value": 956
+}, {
+  "hc-key": "ua",
+  "value": 957
+}, {
+  "hc-key": "sk",
+  "value": 958
+}, {
+  "hc-key": "jk",
+  "value": 959
+}, {
+  "hc-key": "bg",
+  "value": 960
+}, {
+  "hc-key": "qa",
+  "value": 969
+}, {
+  "hc-key": "li",
+  "value": 961
+}, {
+  "hc-key": "at",
+  "value": 963
+}, {
+  "hc-key": "sz",
+  "value": 964
+}, {
+  "hc-key": "hu",
+  "value": 965
+}, {
+  "hc-key": "ro",
+  "value": 966
+}, {
+  "hc-key": "ne",
+  "value": 967
+}, {
+  "hc-key": "lu",
+  "value": 968
+}, {
+  "hc-key": "ad",
+  "value": 969
+}, {
+  "hc-key": "ci",
+  "value": 970
+}, {
+  "hc-key": "lr",
+  "value": 979
+}, {
+  "hc-key": "bn",
+  "value": 971
+}, {
+  "hc-key": "iq",
+  "value": 973
+}, {
+  "hc-key": "ge",
+  "value": 974
+}, {
+  "hc-key": "gm",
+  "value": 975
+}, {
+  "hc-key": "ch",
+  "value": 976
+}, {
+  "hc-key": "td",
+  "value": 977
+}, {
+  "hc-key": "kv",
+  "value": 978
+}, {
+  "hc-key": "lb",
+  "value": 979
+}, {
+  "hc-key": "dj",
+  "value": 980
+}, {
+  "hc-key": "bi",
+  "value": 989
+}, {
+  "hc-key": "sr",
+  "value": 981
+}, {
+  "hc-key": "il",
+  "value": 983
+}, {
+  "hc-key": "ml",
+  "value": 984
+}, {
+  "hc-key": "sn",
+  "value": 985
+}, {
+  "hc-key": "gn",
+  "value": 986
+}, {
+  "hc-key": "zw",
+  "value": 987
+}, {
+  "hc-key": "pl",
+  "value": 988
+}, {
+  "hc-key": "mk",
+  "value": 989
+}, {
+  "hc-key": "py",
+  "value": 990
+}, {
+  "hc-key": "by",
+  "value": 999
+}, {
+  "hc-key": "cz",
+  "value": 991
+}, {
+  "hc-key": "bf",
+  "value": 993
+}, {
+  "hc-key": "na",
+  "value": 994
+}, {
+  "hc-key": "ly",
+  "value": 995
+}, {
+  "hc-key": "tn",
+  "value": 996
+}, {
+  "hc-key": "bt",
+  "value": 997
+}, {
+  "hc-key": "md",
+  "value": 998
+}, {
+  "hc-key": "ss",
+  "value": 999
+}, {
+  "hc-key": "bw",
+  "value": 100
+}, {
+  "hc-key": "bs",
+  "value": 109
+}, {
+  "hc-key": "nz",
+  "value": 101
+}, {
+  "hc-key": "cu",
+  "value": 103
+}, {
+  "hc-key": "ec",
+  "value": 104
+}, {
+  "hc-key": "au",
+  "value": 105
+}, {
+  "hc-key": "ve",
+  "value": 106
+}, {
+  "hc-key": "sb",
+  "value": 107
+}, {
+  "hc-key": "mg",
+  "value": 108
+}, {
+  "hc-key": "is",
+  "value": 109
+}, {
+  "hc-key": "eg",
+  "value": 190
+}, {
+  "hc-key": "kg",
+  "value": 199
+}, {
+  "hc-key": "np",
+  "value": 19
+}]
